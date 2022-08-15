@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DataCarpark</string>
+    <string name="hospital">HOSPITAL</string>
+    <string name="institution">Institution</string>
+    <string name="facility_type">Facility Type</string>
+    <string name="no_of_beds">No. of beds</string>
+    <string name="no_of_facilities">No. of facilities</string>
+    <string name="year">Year</string>
+    <string-array name="spinnerItems">
+        <item></item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/HospitalTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amatica_sc"
+        android:text="@string/hospital"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvInsti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/institution"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvFac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/facility_type"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvBeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/no_of_beds"
+        android:textColor="#0054FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvFacis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/no_of_facilities"
+        android:textColor="#FF00E5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/year"
+        android:textColor="#F84040"
+        android:textSize="20sp" />
+
+</LinearLayout>
